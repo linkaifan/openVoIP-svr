@@ -1,0 +1,138 @@
+{
+  "users": [
+    {
+      "subId": "wxavoipcall_APX26HhcXqHggohZV03UHQ1OnApd5oMwcjs4l3hVzhNfVYf+6+p3+rQQGFLTthLGJxlrvQHoa9Vung==",
+      "name": "fanslin1",
+      "openId": "oX74N4zZpNJFBWD90TS7Std9QN2k",
+      "createdAt": "2025-12-19T14:48:28.431Z",
+      "updatedAt": "2026-03-25T07:58:27.979Z",
+      "roomType": "voice"
+    },
+    {
+      "openId": "oX74N4wGvQc2GrPm0e3-i99lqQcU",
+      "name": "agenttest",
+      "subId": "wxavoipcall_ZHIsVJLtIlSQQ7KcN5lfUWErNz0PLVjMiWFGw0otzqh065MK7GdnEKi+al1LHH9kh8y6vxcvvk6AmA==",
+      "createdAt": "2025-12-19T06:50:49.266Z",
+      "updatedAt": "2026-02-12T07:07:20.736Z",
+      "roomType": "voice"
+    },
+    {
+      "openId": "oX74N46gDxqlnPvM3FRcOjNMNO6A",
+      "name": "jd",
+      "subId": "wxavoipcall_DUR/oTZwJJilUOJzbmWsCfB97tPeQ0+UPL6z4T+0/eI75lwx5s0xwS3xgD5yodoRJWZh9MC8B8fdlQ==",
+      "createdAt": "2025-12-19T07:43:25.571Z",
+      "updatedAt": "2026-02-02T09:19:57.816Z",
+      "roomType": "video"
+    },
+    {
+      "openId": "oX74N42hNT3A9kBoHqa5tHMsVIXU",
+      "name": "lpxtest2",
+      "subId": "wxavoipcall_QyTU995kO8B7iVSHrcKrGbuDw7JQgucpH0hP2zRVS+dTUPoXhTlcE/O/VAiKQgReFX5Fwu6vRSLYng==",
+      "createdAt": "2025-12-26T03:41:31.445Z",
+      "updatedAt": "2026-01-29T09:51:20.294Z",
+      "roomType": "video"
+    },
+    {
+      "subId": "wxavoipcall_y83EP3UigVLG/TMqc9LtwQKspU3SpzLqho1MYDw7F93OTsqgQmTAH8ifJmlg2lUF88f6rMB8zMBmTA==",
+      "name": "fanslin2",
+      "openId": "oX74N46OrO2kgZcrKufZv3eFzG3M",
+      "createdAt": "2025-12-18T14:48:28.431Z",
+      "updatedAt": "2026-03-09T06:22:46.118Z",
+      "roomType": "voice"
+    },
+    {
+      "openId": "oX74N44RRdEWGxjjLngxvnDDJRxE",
+      "name": "lpxtest3",
+      "subId": "wxavoipcall_hrzjKrS7Sp9QnnDV4c0pQXqqVoaJyp5LByYi17fizbITkCsTqhpwdsfjReueXLuoa92BqSB5iHm2dg==",
+      "createdAt": "2025-12-26T03:47:34.614Z",
+      "updatedAt": "2026-01-29T09:42:15.550Z",
+      "roomType": "voice"
+    },
+    {
+      "openId": "oX74N4-cFsQhySPQXjB1z0Oq-NQc",
+      "name": "the_test2",
+      "subId": "wxavoipcall_6By31nheHsM7kzXkXd+mONDTqwOA973ZObaNJSndkCLnFl5r7rIF+3CYdPbK21h0Vru5MXt5TQ9IJg==",
+      "createdAt": "2025-12-26T11:27:52.539Z",
+      "updatedAt": "2026-03-06T11:22:16.682Z",
+      "roomType": "voice"
+    },
+    {
+      "openId": "oX74N45fVFaXNwvaNMKNqDi8uJ4M",
+      "name": "the_test1",
+      "subId": "wxavoipcall_q8SIL9feJ5FVyEva9PKgvVbuzeD3tet1oYMAmhEQyR6v7sIoNbN1zdbq9oSHHc1u1utBQEezQli19Q==",
+      "createdAt": "2025-12-26T11:36:38.551Z",
+      "updatedAt": "2026-02-09T06:59:39.137Z",
+      "roomType": "voice"
+    },
+    {
+      "openId": "oX74N4wJb0RkVxnIfqG0L1ih9ZAQ",
+      "name": "pc9527周星星",
+      "subId": "",
+      "createdAt": "2025-12-30T07:56:36.864Z",
+      "updatedAt": "2025-12-30T11:30:29.796Z"
+    },
+    {
+      "openId": "oX74N4zfzA4Xd-oNYFsK4H5pG824",
+      "name": "kingyu",
+      "subId": "YWdQGAJFu7X++5FxFifNxbvJ5PzWPn6bvXTdnrsoblfJdD49t9avKMd8YklNS3nitrfwIbJiHQeYSQ==",
+      "createdAt": "2025-12-30T08:09:47.906Z",
+      "roomType": "video",
+      "updatedAt": "2026-01-07T06:35:24.273Z"
+    },
+    {
+      "openId": "oX74N48YHjAVNkRbNCKpeSs7A02g",
+      "name": "123213",
+      "subId": "/FKzV8tlDebXh+cXaH8/tpuuSw2YVsOSqtLAaNRjYqPabssmgM0wJ0cu/kGaPBzmXUZGnW86MU0Gow==",
+      "createdAt": "2025-12-30T08:13:30.818Z",
+      "updatedAt": "2026-01-09T03:27:59.966Z",
+      "roomType": "voice"
+    },
+    {
+      "openId": "oX74N4yTZ5bucZS812jBk3DFaOqQ",
+      "name": "周星星pc9527",
+      "subId": "",
+      "createdAt": "2025-12-30T08:48:07.110Z",
+      "updatedAt": "2025-12-30T11:58:12.602Z"
+    },
+    {
+      "openId": "oX74N4yOd1PQ251aa1Ikmt-bovh4",
+      "name": "jjijiji",
+      "subId": "",
+      "roomType": "",
+      "createdAt": "2025-12-30T11:19:47.444Z",
+      "updatedAt": "2025-12-30T11:56:03.769Z"
+    },
+    {
+      "openId": "oX74N4xVedNWS-QBd4MUaEgRHB7k",
+      "name": "Kingyutest1",
+      "subId": "QycVNgupIlEQqfNEEw+vZ2hMIYLHmskCdB2wK1GU3wxFnkB6CHztlgS449v+at8VYYbJQUe4tJwmiQ==",
+      "roomType": "video",
+      "createdAt": "2026-01-06T09:03:23.510Z",
+      "updatedAt": "2026-01-07T06:41:01.963Z"
+    },
+    {
+      "openId": "oX74N48HxC3L7m5_bjZQFCXuayfQ",
+      "name": "qihangtest1",
+      "subId": "wxavoipcall_SZPNqLGn9v1YOphmquK8CVP2lFVlxW+scLN5lDwSDSy8Z6bfCXWVzBDickpC2eZrG8ORnetscUDbzA==",
+      "roomType": "voice",
+      "createdAt": "2026-01-23T10:43:55.070Z",
+      "updatedAt": "2026-02-12T07:25:25.563Z"
+    },
+    {
+      "openId": "oX74N47chRqcNlfEkPARjSm1b30c",
+      "name": "Qhtest3",
+      "subId": "wxavoipcall_kY7MDKHcnm3KV2N1nhITtnUvrZlFnc8kPXCvHuB9xlCSklP2zTnMUpKm4TRpdfCRtrNjIlNoSTg/LQ==",
+      "roomType": "voice",
+      "createdAt": "2026-02-10T13:35:32.952Z",
+      "updatedAt": "2026-02-12T07:05:42.962Z"
+    },
+    {
+      "openId": "oX74N4-45KcfwxkodTvk5AOs24Gs",
+      "name": "fans",
+      "subId": "wxavoipcall_UfpKfxX6GR1at/iYkUSq23iXm39+N8F+B87nIGkmdhlHqaQTIH2nFpnEPN5mTo9hQbytc9xKKueh3A==",
+      "roomType": "voice",
+      "createdAt": "2026-03-02T07:22:04.843Z",
+      "updatedAt": "2026-04-13T10:06:54.898Z"
+    }
+  ]
+}

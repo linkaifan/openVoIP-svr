@@ -1,0 +1,20 @@
+{
+  "users": [
+    {
+      "openId": "oYv7h5I8SeGW0IUbs9OONS3zaWRs",
+      "name": "李白",
+      "subId": "",
+      "roomType": "voice",
+      "createdAt": "2026-01-06T11:24:14.123Z",
+      "updatedAt": "2026-01-06T12:45:00.144Z"
+    },
+    {
+      "openId": "oYv7h5Jee0KNYq6d8kzrftfNySkc",
+      "name": "小四",
+      "subId": "5S7lFRf8r3WsuCf+U52ixoLVFX5kbE3LVWEq5Ix7bqs5v6zzCAu7SXVAbqGgnsHF1KY9lQdnVNkpkQ==",
+      "roomType": "voice",
+      "createdAt": "2026-01-06T11:37:17.754Z",
+      "updatedAt": "2026-01-13T06:24:52.997Z"
+    }
+  ]
+}
