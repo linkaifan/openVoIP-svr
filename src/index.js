@@ -38,20 +38,33 @@ const getDB = (appId) => {
   return db
 }
 
+// 登录：用 code 换取 openId（唯一需要 code 的接口）
+app.post('/login', async (req, res) => {
+  try {
+    const { code, appId } = req.body
+    console.log(`login`, { code, appId })
+    const openId = await getOpenId(code, appId || defaultAppId)
+    res.json({ openId })
+  } catch (e) {
+    console.error('login error:', e.message)
+    res.status(500).json({ error: e.message })
+  }
+})
+
 // 更新用户信息
 app.post('/updateUser', async (req, res) => {
   console.log(`updateUser`, req.body)
 
-  const { code, name, subId, roomType, appId } = req.body
-  const db = getDB(appId)
-  const openId = await getOpenId(code, appId || defaultAppId)
+  const { openId, name, subId, roomType, appId } = req.body
+  if (!openId) {
+    return res.status(400).json({ error: 'openId is required' })
+  }
 
-  // 根据 openId 寻找用户
+  const db = getDB(appId)
   await db.read()
   const oldUserIdx = db.data.users.findIndex((user) => user.openId === openId)
 
   if (oldUserIdx !== -1) {
-    // 用户存在，更新信息
     const user = db.data.users[oldUserIdx]
     db.data.users[oldUserIdx] = {
       ...user,
@@ -61,7 +74,6 @@ app.post('/updateUser', async (req, res) => {
       updatedAt: new Date().toISOString(),
     }
   } else {
-    // 用户不存在，创建新用户
     db.data.users.push({
       openId,
       name: name || '',
@@ -77,14 +89,10 @@ app.post('/updateUser', async (req, res) => {
 
 // 获取所有用户
 app.get('/getUsers', async (req, res) => {
-  const { code, appId } = req.query
+  const { appId } = req.query
   const db = getDB(appId)
-  const openId = await getOpenId(code, appId || defaultAppId)
   await db.read()
-  res.json({
-    users: db.data.users,
-    openId,
-  })
+  res.json({ users: db.data.users })
 })
 
 // 呼叫
